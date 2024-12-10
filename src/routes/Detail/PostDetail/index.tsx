@@ -57,6 +57,14 @@ const StyledWrapper = styled.div`
   margin: 0 auto;
   > article {
     margin: 0 auto;
-    max-width: 42rem;
+    max-width: 44rem;
+
+    span {
+      color: rgba(55, 53, 47, 1);
+    }
+
+    hr {
+      border-top: 1px solid hsl(0, 0%, 88.7%);
+    }
   }
 `
