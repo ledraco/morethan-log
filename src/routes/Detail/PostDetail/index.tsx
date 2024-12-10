@@ -59,7 +59,7 @@ const StyledWrapper = styled.div`
     margin: 0 auto;
     max-width: 44rem;
 
-    span {
+    code {
       color: rgba(55, 53, 47, 1);
     }
 
