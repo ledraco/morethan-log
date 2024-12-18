@@ -59,7 +59,8 @@ const StyledWrapper = styled.div`
     margin: 0 auto;
     max-width: 44rem;
 
-    .notion-default_background code {
+    .notion-default_background code,
+    .notion-default code {
       color: rgba(55, 53, 47, 1);
     }
 
