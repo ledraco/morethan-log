@@ -63,8 +63,8 @@ const StyledWrapper = styled.div`
     .notion-default code {
       color: ${({ theme }) =>
         theme.scheme === "light"
-          ? rgba(55, 53, 47, 1)
-          : rgba(255, 255, 255, 0.81)};
+          ? "rgba(55, 53, 47, 1)"
+          : "rgba(255, 255, 255, 0.81)"};
     }
 
     hr {
